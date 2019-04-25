@@ -1,0 +1,172 @@
+main img {
+  width: 100%;
+}
+
+h1, h2 {
+  font-size: 4em;
+}
+
+h2 {
+  color: #32c3ff;
+}
+
+.navigation li {
+  display: inline-block;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  margin: 30px 0;
+
+}
+
+.navigation ul {
+  padding: 0;
+  margin-top: 20px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+}
+
+#bandera {
+  width: 20px;
+}
+
+.navigation ul {
+  display: inline-block;
+}
+
+.navigation li {
+  margin: 0 10px;
+}
+
+.hamburguesa {
+  display: none;
+}
+
+
+.hero {
+  text-align: center;
+  color: white;
+  background: white url("https://www.ironhack.com/assets/header-home/background-shape-dark.svg") no-repeat center / cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.hero p {
+  font-size: 1.5em;
+}
+
+.button {
+  background: #32c3ff;
+  display: block;                 
+  color: white;
+  text-decoration: none;
+  font-size: .8em;
+  font-weight: 100;   
+  margin: 10px auto;              
+  font-family: sans-serif;
+
+  border-radius: 6px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 64px;
+  padding: 30px 150px;
+}
+
+.button-nav {                   
+  display: block;                 
+  color: white;
+  border: 1px solid #32c3ff;
+  text-decoration: none;
+  font-size: .8em;
+  text-transform: uppercase;
+  font-weight: 100;   
+  margin: 10px auto;              
+  padding: 10px 20px;              
+  font-family: sans-serif;
+  border-radius: 5px;
+}
+
+.companies {
+  text-align: center;
+  margin-bottom: 300px;
+}
+
+.companies img {
+  width: 110%;
+
+}
+
+.companies hr {
+  border: 1px solid rgba(128, 128, 128, 0.144);
+  width: 400px;
+}
+
+.companies p {
+  color: rgba(128, 128, 128, 0.486);
+  margin: 20px 0;
+}
+
+
+
+
+@media all and (max-width: 615px) {
+
+  .hero h1, h2, p{
+    font-size: 1.8em;
+  }
+
+  .hero p {
+    font-size: 0.8em;
+  }
+
+  .button {
+    font-size: 0.8em;
+    padding: 15px 150px;
+  }
+
+}
+
+
+
+@media all and (max-width: 450px) {
+
+  .navigation ul {
+    font-size: 0.8em;
+  }
+
+}
+
+
+@media all and (max-width: 370px) {
+
+  .navigation ul {
+    display: none;
+  }
+
+  .hamburguesa {
+    display: inline-block;
+  }
+   
+}
+
+
+
+@media all and (max-width: 990px) {
+
+  .companies img {
+    width: 70%;
+  }
+
+}
